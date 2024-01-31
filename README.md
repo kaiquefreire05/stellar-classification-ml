@@ -1,4 +1,5 @@
-# stellar-classification-ml
+# Stellar Classification | Comparing 4 algorithms
+Author: [Kaíque Freire dos Santos]<br> Date: 2024-01-30
 
 The notebook presents an exploratory analysis of the data from the "star_classification.csv" dataset, which contains information on 100,000 observations of space taken by the SDSS (Sloan Digital Sky Survey). The observations are described by 17 feature columns and 1 class column that identifies the observation as a star, galaxy, or quasar.
 
@@ -14,9 +15,9 @@ The following table summarizes the results of the models:
 
 <table>
   <tr><td>Model</td><td>Accuracy on test set</td></tr>
-  <tr>Decision tree</tr><tr>97.36%</tr>
-  <tr>K-Nearest Neighbors (KNN)</tr><tr>90.09%</tr>
-  <tr>Support Vector Machines (SVMs)</tr><tr>96.04%</tr>
+  <tr><td>Decision tree</td><td>97.36%</td></tr>
+  <tr><td>K-Nearest Neighbors (KNN)</td><td>90.09%</td></tr>
+  <tr><td>Support Vector Machines (SVMs)</td><td>96.04%</td></tr>
 </table>
 
 # Comments
